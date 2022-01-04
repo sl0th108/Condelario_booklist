@@ -1,0 +1,29 @@
+.background {
+    background-color: rgb(81, 90, 107);
+    background: gray;
+    
+}
+
+.content {
+    align-items: center;
+    text-align: center;
+    color: white;
+    font-size: 40px;
+    padding: 10px;
+}
+
+.message {
+    width: 300px;
+    height: 50px;
+    font-size: 20px;
+    border-radius: 10px;
+}
+
+.button {
+    width: 100px;
+    height: 50px;
+    background-color: rgb(36, 160, 237);
+    border-radius: 10px;
+    color: white;
+    font-size: 20px;
+}
