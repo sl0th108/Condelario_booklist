@@ -2,10 +2,12 @@ import React from "react";
 import './display.css'
 import Cards from "./cards";
 
-function Display() {
+
+
+function Display({allBooks}) {
     return(
         <div>
-           <Cards/> 
+           <Cards allBooks={allBooks}/> 
         </div>
     )
 }

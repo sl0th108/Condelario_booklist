@@ -1,22 +1,27 @@
+
 import React from "react";
 import './cards.css'
 
-function Cards() {
+function Cards({allBooks}) {
     return (
-    <div className="post">
+      <>
+      {allBooks.map((book, index) => (
+        <div className="post">
         <div className="postInfo">
         <span className="postTitle">
-            Title
+            {book.title}
         </span>
         <p>
-          Author
+          {book.author}
         </p>
-      </div>
-      <p className="postDesc">
-        Synopsis
-      </p>
-    </div>
-    )
+        </div>
+          <p className="postDesc">
+            {book.synopsis}
+          </p>
+        </div>
+      ))}
+      </>
+    ) 
 }
 
 export default Cards
